@@ -43,6 +43,7 @@ escolha = st.radio(label='Escolha uma Opção:', options=['Digitar um Texto', 'E
 texto = ''
 
 # Trata a escolha do usuário
+
 if escolha == 'Digitar um Texto':
     # Exibe o campo de texto logo após a escolha
     texto = st.text_area('Insira o texto:')
